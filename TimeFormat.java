@@ -16,7 +16,7 @@ public class TimeFormat {
 		String time = (hours>=12) ? "PM" : "AM";
 		int hoursNew = (hours>12) ? hours-12 : hours;
 		String minutesNew = (minutes<10) ? ("0"+minutes) : "" + minutes;
-		System.out.println(hoursNew+":"+minutesNew+time);
+		System.out.println(hoursNew+":"+minutesNew+" "+time);
 	
         // Replace this comment with the rest of your code
 	}
