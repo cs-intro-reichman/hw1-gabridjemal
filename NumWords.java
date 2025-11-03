@@ -5,6 +5,6 @@ public class NumWords {
 		int hundreds = NumWords / 100;
 		int tens = (NumWords % 100) / 10;
 		int ones = NumWords % 10;
-		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones");
+		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 	}
 }
