@@ -1,3 +1,9 @@
+/* Feedback: 
+ * The code is correct and efficiently sorts three random integers.
+ * However , for clean coding practices it's important to add spacings around 
+ * "sections" of code for better readability.
+ */
+
 // Generates three integer random numbers in a given range,
 // and prints them in increasing order.
 public class Ascend {
